@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace NET.Domain
 {
-    public class Class1
+    public static class Calculate
     {
+        public static int Add(int a, int b)
+        {
+            return a + b;
+        }
     }
 }
